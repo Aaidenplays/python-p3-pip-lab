@@ -2,6 +2,7 @@ import sys
 import requests
 import pytest
 
+
 def python_version():
     return sys.version_info
 
@@ -10,3 +11,4 @@ def requests_version():
 
 def pytest_version():
     return pytest.__version__
+
